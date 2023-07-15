@@ -4,3 +4,55 @@
     font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.ul-container{
+    display: flex;
+    justify-content: space-around;
+}
+.list-child{
+    list-style: none;
+    margin-right: 30px;
+    color: var(--dark-02, #424242);
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 144.444% */
+    
+}
+.f-img{
+    height: 480px;
+    width: 900px;
+    position: relative;
+    left: 160px;
+    top: 40px;
+}
+.first-container{
+    text-align: center;
+}
+.p{
+    color: var(--dark-03, #727272);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+}
+.button{
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 1px;
+background: #FF900E;
+border: #FFF;
+}
